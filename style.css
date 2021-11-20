@@ -1,0 +1,198 @@
+header{
+   
+    background-color: rgb(15 69 86);
+    background-image: var(--bg-gradient);
+    height: 40px;
+    width: 100%;
+    
+}
+header h2{
+    font-size: 19px;
+    margin-top: 8px;
+        font-family: -webkit-pictograph;
+    color: white;
+    text-align: center;
+}
+nav{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 50px;
+    top: 0;
+position: ;
+    
+}
+nav a{
+    color: yellow;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 10px;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+    border-right: yellow solid;
+    
+
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+.item1{
+    /* object-fit: cover; */
+    object-position: 50% 50%;
+    position: relative;}
+
+    .item1 img{
+      
+            /* position: absolute; */
+            object-fit: none;
+            /* height: 131%; */
+            width: 100%;
+        }
+    
+    .item1 .tele{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+
+    
+    .item2{ 
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 300px;
+        margin-top: -5px;
+    }
+    .item2 img
+        {
+            height: 300px;
+            width: 1000px;
+    }
+
+    .item2 .menu{
+        text-align: center;
+        font-family: cursive;
+    }
+    .item2 .menu button{
+        border: none;
+        background-color: khaki;
+        color: gray;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    button:hover{
+        color: rgb(241, 241, 148);
+    }
+
+
+
+    .item3 {
+    /* margin-top: -21px; */
+    position: relative;
+    padding: 0 !important;}
+
+
+
+    .item3 img{    background-size: cover;
+    }
+    button{
+        background-color: transparent;
+        color: white;
+        border-radius: 3px;
+        border: black;
+        padding: 10px;
+    }
+    .item3 .cofee{
+        position: absolute;
+        text-align: center;
+        font-size: 12px;
+        font-family: cursive;
+        color: #f6f2f2;
+        font-size: 35px;
+        top: 0;
+        
+    }
+.item4{
+    /* top: 0; */
+    text-align: center;
+    display: grid;
+    background-color: white;
+    margin-top: 0px;
+}
+    .item4 img{ 
+        background-size: cover;
+      
+    }
+    .item4 .menu{
+        color: black;
+        font-family: cursive;
+
+        
+    }
+    .item4 .menu button{
+        border: none;
+        background-color: khaki;
+        color: gray;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    .item4 .menu button:hover{
+        color: rgb(241, 241, 148);
+    }
+    .item5{
+    position: relative;}
+.item5 img{
+position: absolute;
+}
+.item5 .musique{
+    color: whitesmoke;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+}
+.item6{
+    position: relative;
+}
+.item6 img{
+    margin-top: 800px;
+}
+   
+
+.item6 .nuance{
+    margin-left: 70%;
+    margin-top: -350px;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    /* margin-top: 423px; */
+    position: absolute;
+}
+
+.item6   .nuance button{
+    border: none;
+    background-color: khaki;
+    color: gray;
+    padding: 10px;
+    border-radius: 4px;
+}
+.item6 .nuance button:hover{
+    color: rgb(241, 241, 148);
+}
+footer{
+    top: 0;
+    background-color: rgb(101 132 151);
+    text-align: center;}
+    
+footer .f{
+    display: inline-block;
+    color: cornsilk;
+    text-align: center;
+    margin: auto 20px;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

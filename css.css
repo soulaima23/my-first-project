@@ -1,0 +1,85 @@
+header{
+   
+    background-color: rgb(15 69 86);
+    background-image: var(--bg-gradient);
+    height: 40px;
+    
+}
+body{
+ 
+}
+header h2{
+    font-size: 19px;
+    padding: 6px;
+    font-family: -webkit-pictograph;
+    color: white;
+    text-align: center;
+}
+nav{
+    position: fixed;
+
+
+
+    
+}
+nav a{
+    color: yellow;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 10px;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+    border-right: yellow solid;
+    
+
+}
+.work
+{    margin-top: 52px;
+   
+
+    background-color: rgb(15 69 86);
+    background-image: var(--bg-gradient);
+    height: 80px;
+    text-align: center;
+    color: azure;
+    font-family: monospace;
+}
+.work p{
+    color: yellow;
+}
+.grid-container{
+    text-align: center;
+    margin-top: 52px;
+    display: grid;
+    grid-template-columns: auto;
+}
+.item{
+    
+    width: 100%;
+    height: 50%;
+}
+.item img{
+    height: 200px;
+    width: 200px;
+}
+.item1{
+    background-image: url(./image/fond2.webp);
+    background-attachment: fixed;
+
+}
+
+footer{
+    top: 0;
+    background-color: rgb(101 132 151);
+    text-align: center;}
+    
+footer .f{
+    display: inline-block;
+    color: cornsilk;
+    text-align: center;
+    margin: auto 20px;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
